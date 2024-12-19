@@ -1,6 +1,4 @@
 const fs = require('fs').promises
-
-
 // write a file 
 // let writefile = async()=>{
 //     let data = await fs.writeFile('./write.txt','hi write satyam');
@@ -16,16 +14,17 @@ const fs = require('fs').promises
 // }
 // readfile();
 
+
 // let readfile= async()=>{
-//     let data = await fs.readFile('./write.txt','utf-8')
-//     let appendfile = async()=>{
-//         let data1 = await fs.appendFile('./sonu.txt',data)
-//         console.log("data is appended")
+//         let data = await fs.readFile('./write.txt','utf-8')
+//         let appendfile = async()=>{
+//             let data1 = await fs.appendFile('./sonu.txt',data)
+//             console.log("data is appended")
+//         }
+//         appendfile()
+//         console.log(data)
 //     }
-//     appendfile()
-//     console.log(data)
-// }
-// readfile()
+//     readfile()
 
 
 
