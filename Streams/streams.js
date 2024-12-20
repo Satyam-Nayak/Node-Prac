@@ -26,10 +26,10 @@
 //?finish: This event fires/triggers when the stream has finished processing the data
 
 const fs=require('fs')
-// let readData=fs.createReadStream('./streams1.js','utf-8')
-// readData.on('data',data=>{
-//     console.log(data)
-// })
+let readData=fs.createReadStream('./writeStream.txt','utf-8')
+readData.on('data',data=>{
+    console.log(data)
+})
 
 // readData.on('end',_=>{
 //     console.log("reading is finished")
