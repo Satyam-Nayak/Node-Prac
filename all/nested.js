@@ -14,3 +14,4 @@ fs.mkdir('folder')
     .catch((err)=>{console.log(err)})
 })
 .catch((err)=>{console.log(err)})
+//nested
